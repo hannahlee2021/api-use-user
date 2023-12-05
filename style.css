@@ -92,12 +92,20 @@ top: 185px;
     top: 490px;
 }
 
+input:focus {
+    outline: none;
+}
+
 input[type=text] {
     width: 126px;
 height: 84px;
 flex-shrink: 0;
 border-radius: 25px;
 border: 1px solid #000;
+text-align: center;
+font-size: 30px;
+font-family: Titillium Web;
+color: rgba(219, 58, 48, 0.80);
 }
 
 .input-submit-container {
@@ -112,8 +120,9 @@ height: 36px;
 flex-shrink: 0;
 border-radius: 25px;
 border: 1px solid #000;
-
-color: #000;
+background-color:black;
+color: white;
+cursor:grab;
 
 text-align: center;
 font-family: "Titillium Web", sans-serif;
