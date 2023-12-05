@@ -1,0 +1,147 @@
+body {
+    overflow: hidden;
+}
+
+h1 {
+    color: #000;
+
+    text-align: center;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: #000;
+
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h4 {
+    color: #000;
+
+text-align: center;
+font-family: Titillium Web;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.vertical-grid-container {
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+}
+
+.horizontal-line-container {
+    position: absolute;
+    top: 130px;
+}
+#hor-line {
+    
+    transform: rotate(180deg);
+    flex-shrink: 0;
+}
+
+.circle-image-container {
+    position: absolute;
+    top: 5px;
+}
+/* #circle-image {
+    width: 100px;
+} */
+.text-titles {
+    position: absolute;
+    
+    left: 260px;
+    top: 200px;
+    
+    
+}
+#draw-title {
+
+}
+#rps-title {
+position: absolute;
+left: 25px;
+top: 185px;
+}
+
+.input-form-container {
+    position: absolute;
+    left: 280px;
+    top: 490px;
+}
+
+input[type=text] {
+    width: 126px;
+height: 84px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #000;
+}
+
+.input-submit-container {
+    position: absolute;
+    left: 450px;
+    top: 470px;
+}
+
+#submit {
+    width: 92px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #000;
+
+color: #000;
+
+text-align: center;
+font-family: "Titillium Web", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+.result-text-container {
+    width: 92px;
+height: 90px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #FA0D0D;
+
+position: absolute;
+left: 450px;
+    top: 520px;
+}
+#result-text {
+    position: absolute;
+    left: 8px;
+    width: 75px;
+
+}
+.score-container {
+    position: absolute;
+left: 285px;
+    top: 550px;
+}
